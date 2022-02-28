@@ -14,7 +14,7 @@ setup(
                       'termcolor',  # adept_envs dependency
                       'click',  # adept_envs dependency
                       'dm_control' if 'macOS' in platform() else
-                      'dm_control @  git+https://github.com/deepmind/dm_control@4f1a9944bf74066b1ffe982632f20e6c687d45f1',
+                      'dm_control @ git+git://github.com/deepmind/dm_control@644d9e0047f68b35a6f8b79e5e8493e2910563af',
                       'mjrl @ git+git://github.com/aravindr93/mjrl@master#egg=mjrl'],
     packages=find_packages(),
     package_data={'d4rl': ['locomotion/assets/*',
